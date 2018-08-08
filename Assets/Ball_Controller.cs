@@ -62,7 +62,7 @@ public class Ball_Controller : MonoBehaviour {
             }
 
             if(rb.velocity.x < 0f) { 
-                speedInXDirection = 8f;
+                speedInXDirection = -8f;
             }
 
         rb.velocity = new Vector3(speedInXDirection, -8f, 0f);
@@ -82,7 +82,7 @@ public class Ball_Controller : MonoBehaviour {
 
             if (rb.velocity.x < 0f)
             {
-                speedInXDirection = 8f;
+                speedInXDirection = -8f;
             }
 
             rb.velocity = new Vector3(speedInXDirection, 8f, 0f);
